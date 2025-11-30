@@ -1,0 +1,9 @@
+.authImage{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 600px;
+    display: block;
+    align-self: flex-start;
+}

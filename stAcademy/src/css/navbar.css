@@ -1,0 +1,38 @@
+.custom-navbar {
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.04);
+    padding: 15px 0;
+    transition: all 0.3s ease;
+}
+
+.nav-link-custom {
+    color: #555;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.nav-link-custom:hover {
+    color: #f9423a;
+    background-color: rgba(249, 66, 58, 0.05);
+}
+
+.nav-link-custom.active {
+    color: #f9423a;
+    font-weight: 600;
+}
+
+.profile-section {
+    padding: 5px 10px;
+    border-radius: 30px;
+    transition: all 0.2s ease;
+}
+
+.profile-section:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}

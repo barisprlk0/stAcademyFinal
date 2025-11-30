@@ -1,0 +1,16 @@
+.buttonContainer .customButton {
+    background-color: #ec584b;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 35px;
+    transition: 0.3s;
+}
+
+.buttonContainer .customButton:hover {
+    background-color: #d45c51;
+    color: white;
+    opacity: 0.90;
+    transition: 0.3s;
+}

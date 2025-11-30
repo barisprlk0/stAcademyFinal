@@ -1,0 +1,185 @@
+.card.customCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 25px;
+    border: 0;
+    background-color: "#FDFDFD";
+    width: 350px;
+}
+.card.customCard:hover {
+    box-shadow: 0 10px 25px 0 rgb(190, 188, 188);
+    transition: 0.3s;
+    border-radius: 25px;
+    border: 0;
+    background-color: "#FDFDFD";
+    width: 350px;
+    cursor:pointer;
+}
+.card .customButton {
+    background-color: #ec584b;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 35px;
+    transition: 0.3s;
+}
+
+.card .customButton:hover {
+    background-color: #d45c51;
+    color: white;
+    opacity: 0.90;
+    transition: 0.3s;
+}
+
+.card .customBadge {
+    font-size: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #E03F3F;
+}
+
+.card .customImage {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    height: auto;
+}
+
+.card .profileWithButton .customButtonText {
+    font-size: 14px;
+}
+
+.card .profileWithButton .profileImage {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+.card .profileWithButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.card .profile {
+    display: flex;
+    align-items: center;
+}
+
+.card .profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card .profileName {
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.card .stars {
+    color: #FFC107;
+    font-size: 12px;
+    line-height: 1;
+    margin-top: 2px;
+}
+
+.card .star {
+    margin-right: 1px;
+}
+
+.mainPage .title-section .lastAdds {
+    text-align: left;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 40px;
+}
+
+.search-box {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 15px 20px;
+    padding-right: 50px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: white;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #C7C7C7;
+    cursor: pointer;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000f;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.filter-btn:hover {
+    background-color: #e9ecef;
+}
+
+.filter-btn.active {
+    background-color: #f9423a;
+    color: white;
+}
+
+.title-section {
+    padding: 0 40px;
+    margin-top: 20px;
+}
+
+.title-section h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.title-section hr {
+    width: 300px;
+    border: 1px solid #333;
+    margin-top: 5px;
+    opacity: 1;
+}
