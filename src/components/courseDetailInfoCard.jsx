@@ -44,7 +44,7 @@ function CourseDetailInfoCard({ courseName, description, instructorName, instruc
           createdAt: serverTimestamp(),
           startedBy: currentUser.uid
         });
-        alert("Sohbet başlatıldı. Ekranın sağ alt köşesindeki sohbet iconundan sohbete erişebilirsin.");
+        console.log("Sohbet başlatıldı. Ekranın sağ alt köşesindeki sohbet iconundan sohbete erişebilirsin.");
       }
 
     } catch (error) {
